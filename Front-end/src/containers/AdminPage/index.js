@@ -44,7 +44,7 @@ const menuList = [
   },
   {
     key: 'c',
-    title: 'khách hàng',
+    title: 'Khách hàng',
     icon: <UserOutlined />,
     children: [],
   },

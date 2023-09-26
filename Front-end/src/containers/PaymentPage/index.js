@@ -38,6 +38,22 @@ function PaymentPage() {
   const dispatch = useDispatch();
   const isAuth = useSelector((state) => state.authenticate.isAuth);
 
+  //Thanh toán bằng Mô Mô
+  const handleMomoPayment = () => {
+    // Thực hiện các xử lý liên quan đến thanh toán MoMo ở đây
+    // Ví dụ: chuyển người dùng đến trang thanh toán MoMo
+    window.location.href = 'https://momo.vn/your-payment-page'; // Thay đổi URL thực tế
+  
+    // Hoặc có thể mở cửa sổ pop-up để thực hiện thanh toán
+    // const popup = window.open('https://momo.vn/your-payment-page', 'Momo Payment', 'width=600,height=400');
+    // if (popup) {
+    //   popup.focus();
+    // } else {
+    //   message.error('Không thể mở cửa sổ thanh toán.');
+    // }
+  };
+  //
+
   // ghi chú đơn hàng
   const note = useRef('');
   const addressIndex = useRef(-1);
@@ -215,12 +231,12 @@ function PaymentPage() {
                           Thanh toán khi nhận hàng
                         </b>
                         <p>
-                          Thanh toán bằng tiền mặt khi nhận hàng tại nhà hoặc
-                          showroom.
+                          Thanh toán bằng tiền mặt khi làm thủ tục tại nhà hoặc
+                          trực tiếp.
                         </p>
                       </div>
                     </Col>
-                    <Col
+                    {/* <Col
                       span={24}
                       md={12}
                       onClick={() =>
@@ -231,17 +247,39 @@ function PaymentPage() {
                       }>
                       <div className="p-tb-8 p-lr-16 bg-gray">
                         <b className="font-size-16px">
-                          Thanh toán Online qua cổng VNPAY
+                          Thanh toán Online qua cổng MoMo
                         </b>
                         <p>
                           Thanh toán qua Internet Banking, Visa, Master, JCB,
                           VNPAY-QR.
                         </p>
                       </div>
-                    </Col>
+                    </Col> */}
+
+                    {/* Thanh Toán Bằng Ví MoMo */}
+                    <Col span={24} md={12}>
+                   <div
+                   className="p-tb-8 p-lr-16 bg-gray"
+               onClick={() => handleMomoPayment()}
+                  style={{ cursor: 'pointer' }}
+   >
+    <div style={{ display: 'flex', alignItems: 'center' }}>
+      <img
+        src="https://developers.momo.vn/v3/vi/assets/images/square-logo-f8712a4d5be38f389e6bc94c70a33bf4.png" 
+        alt="MoMo Logo"
+        className="icon m-r-8"
+        style={{ width: '32px', height: '32px' }} 
+      />
+      <b className="font-size-16px">Thanh toán Online qua cổng MoMo</b>
+    </div>
+    <p>Thanh toán qua MoMo QR Code</p>
+  </div>
+</Col>
+                    {/*  */}
                   </Row>
                 </div>
               </Col>
+              
 
               {/* đặt hàng */}
               <Col span={24} md={8}>

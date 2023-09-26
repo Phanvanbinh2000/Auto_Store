@@ -5,9 +5,8 @@ import './index.scss';
 // Do cả chương trình chỉ có 1 list carousel
 // Nên lưu thẳng vào đây để đỡ tốn chi phí query
 const list = [
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752561/saleOff/carousels/unnamed_2_d2ccjd.webp',
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752560/saleOff/carousels/unnamed_flqfng.webp',
-  'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752560/saleOff/carousels/unnamed_1_t5luv4.webp',
+  // 'https://res.cloudinary.com/tuan-cloudinary/image/upload/v1609752561/saleOff/carousels/unnamed_2_d2ccjd.webp',
+  
 ];
 
 function ProductCarousel() {

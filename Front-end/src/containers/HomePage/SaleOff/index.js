@@ -14,6 +14,20 @@ const list = [
 
 ];
 
+// function SaleOff() {
+//   return (
+//     <Carousel className="Sale-Off" autoplay>
+//       {list.map((item, index) => (
+//         <div className="Sale-Off-slide" key={index}>
+//           <img className="Sale-Off-img" src={item} alt={`Slide ${index}`} />
+//         </div>
+//       ))}
+//     </Carousel>
+//   );
+// }
+
+// export default SaleOff;
+
 function SaleOff() {
   return (
     <Carousel className="Sale-Off" autoplay>

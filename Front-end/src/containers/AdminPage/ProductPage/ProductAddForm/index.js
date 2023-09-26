@@ -69,35 +69,35 @@ function AddProduct() {
       case 0:
         return <Laptop />;
       case 1:
-        return <Disk />;
-      case 2:
-        return <Display />;
-      case 3:
-        return <MainBoard />;
-      case 4:
-        return <Ram />;
-      case 5:
-        return <Mobile />;
-      case 6:
-        return <BackupCharger />;
-      case 7:
-        return <Headphone />;
-      case 8:
-        return <Keyboard />;
-      case 9:
-        return <Monitor />;
-      case 10:
-        return <Mouse />;
-      case 11:
-        return <Router />;
-      case 12:
-        return <Speaker />;
-      case 13:
-        return <Camera />;
-      case 14:
-        return <Webcam />;
-      default:
-        break;
+        return <GoogleDrive />;
+      // case 2:
+      //   return <Display />;
+      // case 3:
+      //   return <MainBoard />;
+      // case 4:
+      //   return <Ram />;
+      // case 5:
+      //   return <Mobile />;
+      // case 6:
+      //   return <BackupCharger />;
+      // case 7:
+      //   return <Headphone />;
+      // case 8:
+      //   return <Keyboard />;
+      // case 9:
+      //   return <Monitor />;
+      // case 10:
+      //   return <Mouse />;
+      // case 11:
+      //   return <Router />;
+      // case 12:
+      //   return <Speaker />;
+      // case 13:
+      //   return <Camera />;
+      // case 14:
+      //   return <Webcam />;
+      // default:
+      //   break;
     }
   };
 
@@ -290,7 +290,7 @@ function AddProduct() {
                     size="large"
                     placeholder="Tên sản phẩm *"
                     suffix={
-                      <Tooltip title="Laptop Apple MacBook Air 13 2019 MVFM2SA/A (Core i5/8GB/128GB SSD/UHD 617/macOS/1.3 kg)">
+                      <Tooltip title="Key Bản Quyền Window">
                         <InfoCircleOutlined style={{ color: suffixColor }} />
                       </Tooltip>
                     }
@@ -327,7 +327,7 @@ function AddProduct() {
                   />
                 </Form.Item>
               </Col>
-              {/* thương hiệu */}
+              {/* Thể loại */}
               <Col span={12} md={8} xl={6} xxl={4}>
                 <Form.Item
                   name="brand"
@@ -336,9 +336,9 @@ function AddProduct() {
                   ]}>
                   <Input
                     size="large"
-                    placeholder="Thương hiệu *"
+                    placeholder="Thể Loại *"
                     suffix={
-                      <Tooltip title="Apple">
+                      <Tooltip title="Key Window">
                         <InfoCircleOutlined style={{ color: suffixColor }} />
                       </Tooltip>
                     }

@@ -136,7 +136,7 @@ function ProductOverview(props) {
         <div
           className="font-size-16px font-weight-400"
           style={{ color: '#aaa' }}>
-          Thương hiệu:
+          Sản Phẩm:
           <span className="product-brand font-weight-500">&nbsp;{brand}</span>
           &nbsp; | &nbsp;<span>{code}</span>
         </div>
