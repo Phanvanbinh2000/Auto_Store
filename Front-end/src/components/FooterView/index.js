@@ -19,25 +19,25 @@ function FooterView() {
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn mua hàng</h2>
             <h2 className="footer-contact-item">
-              <b>0840.67.9081</b>
+              <b>sodienthoaiBinh</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
-            <h2 className="footer-contact-item">Tư vấn đào tạo</h2>
+            <h2 className="footer-contact-item">Tư vấn tạo phần mềm theo nhu cầu</h2>
             <h2 className="footer-contact-item">
-              <b>0841.67.9111</b>
+              <b>sodienthoaiDai</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Tư vấn quảng cáo</h2>
             <h2 className="footer-contact-item">
-              <b>0842.67.9022</b>
+              <b>soDucAnh</b>
             </h2>
           </div>
           <div className="d-flex flex-direction-column">
             <h2 className="footer-contact-item">Hỗ trợ kỹ thuật</h2>
             <h2 className="footer-contact-item">
-              <b>090.267.9011</b>
+              <b>solamLe</b>
             </h2>
           </div>
         </div>
@@ -46,16 +46,16 @@ function FooterView() {
       <div className="container p-tb-32">
         <p className="t-center" style={{ color: '#888' }}>
           <span className="font-size-18px">
-            CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ NHÓM PHAN VĂN BÌNH
+            Cho Thuê & Thiết Kế Tool Theo Nhu Cầu
           </span>
           <br />
-          <strong>Trụ sở:</strong>&nbsp;Số 123 , Đường Nguyễn Văn Linh, Quận Sơn Trà, Thành Phố Đà Nẵng
+          <strong>Trụ sở:</strong>&nbsp;Thành Phố Đà Nẵng
           <br />
-          <strong>Văn phòng:</strong>&nbsp; Tần 10 Tòa Nhà PhiLong
+          <strong>Văn phòng:</strong>&nbsp; Đặt Tại Thành Phố Đà Nẵng
           <br />
           <strong>Điện&nbsp;thoại:</strong>&nbsp;079.7025.215 |{' '}
           <strong>Email:</strong>&nbsp;phanvanbinh@gmail.com&nbsp;|{' '}
-          <strong>Website:</strong>&nbsp;<a href="/">ttbstore.vn</a>
+          <strong>Website:</strong>&nbsp;<a href="/">toolvip.com.vn</a>
         </p>
         <div className="d-flex align-i-center justify-content-center">
           <img src={registeredImg} width={175} />

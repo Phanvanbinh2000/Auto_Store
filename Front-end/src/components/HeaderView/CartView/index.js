@@ -55,7 +55,7 @@ function CartView(props) {
             className="m-tb-8 d-block m-lr-auto w-100"
             type="primary"
             size="large">
-            {length > 0 ? 'Đến giỏ hàng' : 'Mua sắm ngay'}
+            {length > 0 ? 'Đến giỏ hàng' : 'Đặt Hàng'}
           </Button>
         </Link>
       </div>

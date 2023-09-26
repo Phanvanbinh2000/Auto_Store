@@ -9,7 +9,7 @@ function ContactIcon() {
       className="Contact-Icon-Link"
       href="https://www.facebook.com/profile.php?id=100073394689206"
       target="blank">
-      <Tooltip title="Liên hệ admin Mango để tư vấn " placement="left">
+      <Tooltip title="Liên hệ admin Auto_Store để tư vấn " placement="left">
         <img
           style={{ opacity: 0.8 }}
           className="Contact-Icon"

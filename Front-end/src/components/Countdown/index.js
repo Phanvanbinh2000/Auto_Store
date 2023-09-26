@@ -50,28 +50,28 @@ function Countdown(props) {
         <div className="countdown-item">
           <SVGCircle radius={daysRadius} />
           {days}
-          <span>days</span>
+          <span>Ngày</span>
         </div>
       )}
       {hours && (
         <div className="countdown-item">
           <SVGCircle radius={hoursRadius} />
           {hours}
-          <span>hours</span>
+          <span>Giờ</span>
         </div>
       )}
       {minutes && (
         <div className="countdown-item">
           <SVGCircle radius={minutesRadius} />
           {minutes}
-          <span>minutes</span>
+          <span>Phút</span>
         </div>
       )}
       {seconds && (
         <div className="countdown-item">
           <SVGCircle radius={secondsRadius} />
           {seconds}
-          <span>seconds</span>
+          <span>Dây</span>
         </div>
       )}
     </div>

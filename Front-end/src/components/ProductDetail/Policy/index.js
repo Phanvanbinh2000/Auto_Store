@@ -11,30 +11,30 @@ function ProductPolicy() {
     <div className="bg-white p-12 policy">
       <div style={{ color: '#53C303' }} className="m-b-4">
         <img src={truckIcon} className="m-r-4" />
-        Sản phẩm được miến phí giao hàng
+        Sản phẩm được miến phí VAT
       </div>
       <h3 className="font-weight-700 m-tb-8">Chính sách bán hàng</h3>
       <div className="m-b-12">
         <img src={okIcon} className="m-r-4" />
-        Cam kết chính hãng 100%
+        Cam kết key Đúng 100%
       </div>
-      <div className="m-b-12">
+      {/* <div className="m-b-12">
         <img src={truckIcon_2} className="m-r-4" />
         Miễn phí giao hàng từ 700k
-      </div>
+      </div> */}
       <div className="m-b-12">
         <img src={returnProductIcon} className="m-r-4" />
-        Đổi trả miễn phí trong 7 ngày
+        Cho Phép Đổi Trả Khi Key Còn Thời Hạn
       </div>
       <h3 className="font-weight-700 m-tb-12">Dịch vụ thêm</h3>
       <div className="m-b-12">
         <img src={guaranteeIcon} className="m-r-4" />
-        Miễn phí bảo hành tại nhà
+        Miễn phí bảo hành 
       </div>
-      <div className="m-b-12">
+      {/* <div className="m-b-12">
         <img src={wrenchIcon} className="m-r-4" />
         Sửa chữa đồng giá 149.000đ
-      </div>
+      </div> */}
     </div>
   );
 }
