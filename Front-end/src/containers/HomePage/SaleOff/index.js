@@ -5,17 +5,12 @@ import './index.scss';
 // Do cả chương trình chỉ có 1 list carousel
 // Nên lưu thẳng vào đây để đỡ tốn chi phí query
 const list = [
-  'https://res.cloudinary.com/mang013022002/image/upload/v1668412964/SaleOff/carousels/a1_qzvez4.png',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667805799/SaleOff/carousels/iphone-13-pro-max-case_o3d7t6.jpg',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1668413465/SaleOff/carousels/iphone-12-banner-1_jnkyvn_2_ocjtpb.png',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1666770395/SaleOff/carousels/popupimage-1676288705_da5ys9.jpg',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1668413786/SaleOff/carousels/sale11_w8yxdi.png',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667555786/SaleOff/carousels/carcrycbe02_rpqqxv.webp',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667555785/SaleOff/carousels/carvhqqe103_vjlcrq.webp',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667555786/SaleOff/carousels/carousels04_ugkxff.webp',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667805798/SaleOff/carousels/sub-bannerArtboard-1_hsve4g.jpg',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667805798/SaleOff/carousels/collection-banner_iPhone_Cases_Desktop_ponxuq.jpg',
-  'https://res.cloudinary.com/mang013022002/image/upload/v1667805797/SaleOff/carousels/iphone-evolution-blog-banner_wibvs9.jpg',
+  'https://cdn.divineshop.vn/image/catalog/Banner/banner%20Google%20One%20(3)-10567.png?hash=1658937523',
+  'https://cdn.divineshop.vn/image/catalog/Anh/24.12.21/t%E1%BB%91i%20%C6%B0u%20c%C3%B4ng%20vi%E1%BB%87c-45178.png?hash=1640349471',
+  'https://cdn.divineshop.vn/image/catalog/Anh/Banner%2014%20thang%2011/Banner%20main-1280x632-27477.png?hash=1689069871',
+  'https://cdn.divineshop.vn/image/catalog/Anh-SP/Kh%C3%A1c/chatGPT-70878.jpg?hash=1681283148',
+  'https://cdn.divineshop.vn/image/catalog/Banner/Gmail-60882.png?hash=1691142559',
+  
 
 ];
 

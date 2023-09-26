@@ -19,36 +19,36 @@ function convertTime(nDate) {
 // Do cả chương trình chỉ có 1 list carousels
 // Nên lưu thẳng vào đây để đỡ tốn chi phí query
 const list = [
+  // {
+  //   title: 'Loa, âm thanh',
+  //   type: 12,
+  //   content: 'Giảm đến 36%',
+  //   deadline: convertTime(6),
+  // },
   {
-    title: 'Loa, âm thanh',
-    type: 12,
-    content: 'Giảm đến 36%',
-    deadline: convertTime(6),
-  },
-  {
-    title: 'Laptop',
+    title: 'Key Bản Quyền Nết tờ lix',
     type: 0,
     content: 'Giảm trực tiếp 1.5tr',
     deadline: convertTime(2),
   },
-  {
-    title: 'Phụ kiện',
-    type: 10,
-    content: 'Giảm đến 35%',
-    deadline: convertTime(3),
-  },
-  {
-    title: 'Bàn phím',
-    type: 8,
-    content: 'Giảm đến 49%',
-    deadline: convertTime(15),
-  },
-  {
-    title: 'Thiết bị mạng',
-    type: 11,
-    content: 'Sale sập tiệm 90%',
-    deadline: convertTime(4),
-  },
+  // {
+  //   title: 'Phụ kiện',
+  //   type: 10,
+  //   content: 'Giảm đến 35%',
+  //   deadline: convertTime(3),
+  // },
+  // {
+  //   title: 'Bàn phím',
+  //   type: 8,
+  //   content: 'Giảm đến 49%',
+  //   deadline: convertTime(15),
+  // },
+  // {
+  //   title: 'Thiết bị mạng',
+  //   type: 11,
+  //   content: 'Sale sập tiệm 90%',
+  //   deadline: convertTime(4),
+  // },
 ];
 
 function DiscountList() {
@@ -79,7 +79,7 @@ function DiscountList() {
       {/* content & product list */}
       <Row className="flex-grow-1">
         {/* countdown */}
-        <Col
+        {/* <Col
           span={24}
           md={6}
           className="d-flex flex-direction-column justify-content-center countdown">
@@ -87,7 +87,7 @@ function DiscountList() {
             timeTillDate={list[indexHeader].deadline}
             timeFormat="MM DD YYYY, h:mm a"
           />
-        </Col>
+        </Col> */}
         {/* product list */}
         <Col span={24} md={18}>
           <RelatedProduct

@@ -36,7 +36,7 @@ function AccountPage() {
     },
     {
       Icon: <CompassOutlined className="icon m-r-12 font-size-24px" />,
-      title: 'Địa chỉ giao hàng',
+      title: 'Địa chỉ người mua',
       key: 'addresses',
     },
     {

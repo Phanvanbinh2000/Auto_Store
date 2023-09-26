@@ -114,7 +114,7 @@ function AddressAddForm(props) {
       <Form onFinish={onAddAddress} ref={formRef} name="form">
         <Row gutter={[32, 0]}>
           <Col span={12}>
-            <h3>Thông tin người nhận hàng</h3>
+            <h3>Thông tin người mua hàng</h3>
             <Form.Item
               name="name"
               className="m-tb-16"

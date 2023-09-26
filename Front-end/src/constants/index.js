@@ -50,50 +50,50 @@ const ROUTES = {
 // laptop
 const FILTER_BRAND_LAPTOP = [
   {
-    title: 'Apple',
-    to: 'apple',
+    title: 'Account Steam ',
+    to: 'Account Steam ',
   },
   {
-    title: 'Acer',
-    to: 'acer',
+    title: 'Adobe',
+    to: 'Adobe',
   },
   {
-    title: 'ASUS',
-    to: 'asus',
+    title: 'Giải trí',
+    to: 'Giải trí',
   },
   {
-    title: 'Dell',
-    to: 'dell',
+    title: 'Học tập',
+    to: 'Học tập',
   },
   {
-    title: 'HP',
-    to: 'hp',
+    title: 'Làm việc',
+    to: 'Làm việc',
   },
   {
-    title: 'Lenovo',
-    to: 'lenovo',
+    title: 'Origins',
+    to: 'Origins',
   },
   {
-    title: 'LG',
-    to: 'lg',
+    title: 'Spotify',
+    to: 'Spotify',
   },
   {
-    title: 'MSI',
-    to: 'msi',
+    title: 'Steam',
+    to: 'Steam',
   },
 ];
 const FILTER_SIZE_LAPTOP = [
   {
-    title: 'Dưới 13 inch',
-    to: `duoi_13_inch`,
+    title: 'VIP',
+    to: `VIP`,
   },
   {
-    title: 'Từ 13 đến 15 inch',
-    to: `tu_13_den_15_inch`,
+    title: 'Trung Bình',
+    to: `Trung Bình`,
   },
   {
-    title: 'Trên 15 inch',
-    to: `tren_15_inch`,
+    title: 'Bình Thường',
+    to: `Bình Thường`,
   },
 ];
 const FILTER_PRICE_LAPTOP = [

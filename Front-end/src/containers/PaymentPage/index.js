@@ -86,7 +86,7 @@ function PaymentPage() {
       setIsLoading(true);
       const owner = user._id;
       if (addressIndex.current === -1) {
-        message.warn('Vui lòng chọn địa chỉ giao hàng');
+        message.warn('Vui lòng chọn địa chỉ người đặt hàng');
         setIsLoading(false);
         return;
       }

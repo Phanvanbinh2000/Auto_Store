@@ -125,7 +125,7 @@ function OrderDetail(props) {
 
             {/* địa chỉ người nhận */}
             <Col span={12}>
-              <h3 className="t-center m-b-12">ĐỊA CHỈ NGƯỜI NHẬN</h3>
+              <h3 className="t-center m-b-12">ĐỊA CHỈ NGƯỜI MUA</h3>
               <div
                 className="p-tb-12 p-lr-16 bg-gray bor-rad-8"
                 style={{ minHeight: 150 }}>

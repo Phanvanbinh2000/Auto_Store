@@ -148,7 +148,7 @@ function AddressUserList(props) {
             <div className="m-t-16">{showAddressList(list)}</div>
           ) : (
             <h3 className="m-t-16 t-center" style={{ color: '#888' }}>
-              Hiện tại bạn chưa có địa chỉ giao, nhận hàng nào
+              Hiện tại bạn chưa có thông tin người mua nào
             </h3>
           )}
           {isVisibleForm && (
