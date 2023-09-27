@@ -5,7 +5,7 @@ import {
   UserOutlined,
 } from '@ant-design/icons';
 import { Button, Col, Result, Row } from 'antd';
-import userLogo from 'assets/icon/user_32px.png';
+import userLogo from 'assets/imgs/default-avt.gif';
 import constants from 'constants/index';
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';

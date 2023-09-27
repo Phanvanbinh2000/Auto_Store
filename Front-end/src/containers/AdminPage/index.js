@@ -13,7 +13,7 @@ import {
 import { Button, Menu } from 'antd';
 import Avatar from 'antd/lib/avatar/avatar';
 import SubMenu from 'antd/lib/menu/SubMenu';
-import defaultAvt from 'assets/imgs/default-avt.png';
+import defaultAvt from 'assets/imgs/default-avt.gif';
 import logoUrl from 'assets/imgs/sec_logo.png';
 import React, { useState } from 'react';
 import Dashboard from './Dashboard';
